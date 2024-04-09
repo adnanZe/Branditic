@@ -1,3 +1,10 @@
+import Header from "./_components/header";
+
 export default function Home() {
-  return <h1>Hello, Branditic!</h1>;
+  return (
+    <>
+      <Header />
+      <h1>Hello, Branditic Page!</h1>
+    </>
+  );
 }
